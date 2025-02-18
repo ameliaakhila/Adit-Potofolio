@@ -1,48 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Membuat Portofolio</title>
     <link rel="stylesheet" href="style.css">
     <!-- Font awesome import , ini nih nanti kita search font awesome cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootsrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
     <header class="header">
-        <a href="#" class="logo">Adhitiya</a>
-        <!-- Sebelum itu kita ke bagian font awesome dulu link nya kita ketik terus kita klik icon dan mencari yg namanya bars habis itu nanti kita copy kodingannya dibawah ini-->
-        <i class="fa-solid fa-bars" class="menu-icons"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#services">Services</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
+        <nav class="navbar navbar-expand-lg fixing-top">
+            <div class="container-fluid mx-3">
+                <a class="navbar-brand logo" style="font-weight: ;" href="#">Adhitiya</a>
+                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#education">Education</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-     <!-- intinya kalau mau bikin ini kita tulis section.home#home jadi titik buat class dan # buat id -->
+    <!-- intinya kalau mau bikin ini kita tulis section.home#home jadi titik buat class dan # buat id -->
     <section class="home" id="home">
-     <div class="home-img">
-        <img src="img/poto aing.jpg" alt="">
-     </div>
-     <div class="home-content">
-        <h1>Hi It's <span>Adhitiya</span></h1>
-       <h3 class="typing-text">I'm a <span></span></h3>
-       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, veritatis atque, reiciendis unde quo hic rerum delectus, laboriosam quas porro harum pariatur? Voluptatem eos recusandae earum ad sequi iusto rem similique voluptas consequatur laborum dolores quos ullam mollitia consectetur, ea cupiditate! Culpa, corporis excepturi ipsum ratione eveniet quaerat ut quis praesentium voluptas consectetur. Vel optio eaque vitae praesentium libero assumenda. Nulla, incidunt. Neque debitis ab atque? Non, sunt. Velit blanditiis laudantium rerum iusto voluptates ipsum, ipsa nihil suscipit a illo. Quasi, aliquam, tenetur itaque accusamus repellat possimus soluta deleniti veniam repudiandae quod animi ullam dolorem excepturi vel quia doloremque optio?</p>
+        <div class="home-img">
+            <img src="img/poto aing.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi It's <span>Adhitiya</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit earum, aliquam id, quas quam ipsa
+                reiciendis magni, exercitationem vitae porro provident quibusdam temporibus. Expedita nostrum architecto
+                minima natus voluptatum consequuntur cupiditate cum laboriosam deserunt voluptates, nesciunt, nobis rem
+                magni blanditiis similique ex amet, sunt aliquid vitae ipsum officia harum. Repellendus pariatur magnam
+                repellat asperiores unde dolorum consequatur quidem earum sequi nobis optio laboriosam assumenda, animi
+                quae. Neque voluptates dolore molestias facilis maiores ab perferendis. Perspiciatis, consectetur
+                laborum! Adipisci culpa aut neque delectus unde, iusto est sit totam optio fugiat praesentium, suscipit
+                quidem, nesciunt exercitationem voluptates modi. Consequatur eveniet animi culpa!</p>
 
-    <div class="social-icon">
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-brands fa-github"></i></a>
-        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-    </div>
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
 
-    <a href="#" class="btn">Hire Me</a>
-     </div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
     </section>
-    
-    
+
+
     <section class="services" id="services">
         <h2 class="heading"> Services</h2>
 
@@ -50,21 +74,24 @@
             <div class="service-box">
                 <div class="service-info">
                     <h4>Graphic Designer</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio unde fugiat, nobis rerum harum odit laudantium maiores modi quisquam!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio unde fugiat, nobis
+                        rerum harum odit laudantium maiores modi quisquam!</p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>UI UX Design</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio unde fugiat, nobis rerum harum odit laudantium maiores modi quisquam!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio unde fugiat, nobis
+                        rerum harum odit laudantium maiores modi quisquam!</p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Software Division Leader</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio unde fugiat, nobis rerum harum odit laudantium maiores modi quisquam!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio unde fugiat, nobis
+                        rerum harum odit laudantium maiores modi quisquam!</p>
                 </div>
             </div>
 
@@ -145,7 +172,8 @@
                         <h2>University</h2>
                     </div>
                     <div class="desc"><br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla exercitationem quam error tempora alias nemo assumenda?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla
+                            exercitationem quam error tempora alias nemo assumenda?</p>
                     </div>
                 </div>
             </div>
@@ -156,7 +184,8 @@
                         <h2>High School</h2>
                     </div>
                     <div class="desc"><br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla exercitationem quam error tempora alias nemo assumenda?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla
+                            exercitationem quam error tempora alias nemo assumenda?</p>
                     </div>
                 </div>
             </div>
@@ -167,7 +196,8 @@
                         <h2>Junior High School</h2>
                     </div>
                     <div class="desc"><br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla exercitationem quam error tempora alias nemo assumenda?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla
+                            exercitationem quam error tempora alias nemo assumenda?</p>
                     </div>
                 </div>
             </div>
@@ -178,13 +208,14 @@
                         <h2>Primary school</h2>
                     </div>
                     <div class="desc"><br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla exercitationem quam error tempora alias nemo assumenda?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis, repellat omnis nulla
+                            exercitationem quam error tempora alias nemo assumenda?</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section class="contact" id="contact">
         <h2 class="heading">
             Contact <span> Me</span>
@@ -195,35 +226,36 @@
                     <input type="Number" placeholder="Phone Number" required>
                     <input type="text" placeholder="Subject" required>
                 </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea> 
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </form>
         </h2>
     </section>
 
-
-         <footer class="footer">
-            <div class="social">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
-            <ul class="list">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Privacy Policies</a></li>
-            </ul>
-            <p class="copyright"> © Adhitiya Ayu Puspitasari | All Right Reserved</p>
-         </footer>
-
-
-
-
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policies</a></li>
+            <p>© Adhitiya Ayu Puspitasari | All Right Reserved</p>
+        </ul>
+    </footer>
 
     <!-- Wow animatiom -->
-     <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+    <!-- bootsrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

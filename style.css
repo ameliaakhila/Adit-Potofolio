@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    background-image: url(img/bground2.jpg);
+    background-image: url(img/bg.png);
     font-family: "Poppins, sans-serif";
     color: var(--bg-color);
 }
@@ -41,12 +41,13 @@ html::-webkit-scrollbar-thumb {
 }
 
  .header {
-    margin: 0px 20px;
+    width: 100%;
+    background-color: rgba(100, 148, 237, 0.185);
  }
 
 .logo {
     font-size: 4rem !important;
-    color: rgb(112, 112, 112) !important;
+    color: cornflowerblue !important;
     font-weight: 800 !important;
     cursor: pointer;
 }
@@ -92,7 +93,7 @@ section {
     align-items: center !important;
     margin-top: 0 !important;
     gap: 8rem !important;
-    background-image: url(img/bground2.jpg) !important;
+    background-image: url(img/bg.png) !important;
 }
 
 .home .home-content h1 {
@@ -102,7 +103,7 @@ section {
 }
 
 span {
-    color: rgb(112, 112, 112);
+    color: rgb(156, 187, 244);
 }
 
 .home-content h3 {
@@ -156,7 +157,7 @@ span {
 .btn {
     display: inline-block !important;
     padding: 1rem 2.8rem !important;
-    background: #0c0b0c !important;
+    background: cornflowerblue !important;
     border-radius: 4rem !important;
     font-size: 1.6rem !important;
     color: #fcfcfc !important;
@@ -172,7 +173,7 @@ span {
 
 .btn:hover {
     transform: scale(1.03);
-    background-color: black;
+    background-color: cornflowerblue;
     color: #fff;
     box-shadow: 0 0 25px var(--main-color);
 }
@@ -212,19 +213,19 @@ span {
 
 @keyframes words {
     0%, 20% {
-        content: "Web Developer";
+        content: "Front End Developer";
     }
     21%, 40% {
-        content: "Developer";
+        content: "Software Enginer";
     }
     41%, 60% {
         content: "Web Designer";
     }
     61%, 80% {
-        content: "Wonder Woman";
+        content: "Cute Women";
     }
     81%, 100% {
-        content: "Software Division Leader";
+        content: "Vice Leader";
     }
 }
 
@@ -276,7 +277,7 @@ span {
 
 /* Services Section */
 .services {
-    background: black;
+    background: cornflowerblue;
 }
 
 .services#services .heading {
@@ -301,7 +302,7 @@ span {
 
 .service-box {
     margin-top: 5%;
-    background-image: url(img/bground2.jpg);
+    background-image: url(img/bg.png);
     height: 280px;
     border-radius: 3rem;
     cursor: pointer;
@@ -365,16 +366,16 @@ span {
 
 /* Skills section */
 .skills {
-    background-image: url(img/bground2.jpg);
+    background-image: url(img/bg.png);
 }
 
 .skills#skills .heading {
-    color: black;
+    color: cornflowerblue;
 }
 
 .skills .container {
-    background: black;
-    color: black;
+    background: cornflowerblue;
+    color: cornflowerblue;
     border-radius: 1rem;
     padding: 2rem;
     width: 100%;
@@ -393,7 +394,7 @@ span {
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 1rem;
-    background-image: url(img/bground2.jpg);
+    background-image: url(img/bg.png);
     box-shadow: 0 4px 10px var(--main-color);
     transition: 0.3s ease;
     cursor: pointer;
@@ -437,7 +438,7 @@ span {
 
 /* Project Section */
 .project {
-    background: black;
+    background: cornflowerblue;
 }
 .project .heading {
     color: #ffffff;
@@ -488,7 +489,7 @@ span {
 }
 
 .contact#contact .heading {
-    color: #181818;
+    color: cornflowerblue;
 }
 
 .contact#contact .heading span {
@@ -501,13 +502,13 @@ span {
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background: black;
+    background: cornflowerblue;
 }
 
 .footer .social {
     text-align: center;
     padding-bottom: 25px;
-    color: black;
+    color: cornflowerblue;
 }
 
 .footer .social a {

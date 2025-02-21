@@ -14,7 +14,7 @@
     --bg-color: #000000;
     --second-bg-color: #161616;
     --text-color: #fff;
-    --main-color: #a3959a;
+    --main-color: hsl(204, 100%, 69%);
 }
 
 html {
@@ -41,24 +41,31 @@ html::-webkit-scrollbar-thumb {
 }
 
  .header {
+    padding: 0 20px !important;
     width: 100%;
     background-color: rgba(100, 148, 237, 0.185);
  }
 
 .logo {
     font-size: 4rem !important;
-    color: cornflowerblue !important;
-    font-weight: 800 !important;
+    color: rgb(125, 171, 255) !important;
+    text-shadow: 5 10px 30px white ;
+    font-weight: bolder !important;
     cursor: pointer;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+    color: rgb(149, 186, 254) !important;
 }
 .navbar-nav .nav-link {
-    padding: 0 30px !important;
+    padding: 0 10px !important;
     font-size: 20px !important;
+    font-weight: 600;
 }
+
+    .navbar-nav .nav-link:hover {
+        color: #a7d3ff; 
+    }
 
 
 @media (max-width: 995px) {
@@ -67,18 +74,18 @@ html::-webkit-scrollbar-thumb {
     }
     .navbar-nav{
         margin: 0 0 0 70% !important;
-        padding: 20px !important;
+        /* padding: 20px !important; */
         font-weight: bold;
     }
     .navbar-nav .nav-link {
         display: block;
         font-size: 15px !important;
-        margin: 0.5rem 0;
+        margin: 0.5rem 0 ;
         transition: color 0.3s ease;
     }
 
     .navbar-nav .nav-link:hover {
-        color: #c8c8c8; 
+        color: #a7d3ff; 
     }
 }
 
@@ -123,12 +130,12 @@ span {
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
-    transition: 0.2s linear;
+    transition: 0.2s linear !important;
 }
 
 .home-img img:hover {
-    transform: scale(1.01);
-    filter: dropshadow(0 0 25px var(--main-color));
+    transform: scale(1.01) !important;
+    filter: dropshadow(0 0 25px var(--main-color)) !important;
 }
 
 .social-icon a {
@@ -190,7 +197,7 @@ span {
 
 .typing-text span::before {
     content: 'Software Developer';
-    color: #484647;
+    color: #8c8c8c;
     animation: words 20s infinite;
 }
 
@@ -415,8 +422,14 @@ span {
 
 .skills .container .bar .info span {
     font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 0.5rem;
+    color: rgb(22, 63, 138);
+}
+
+.skills .container .fa-figma, .fa-html5, .fa-css3-alt, .fa-js, .fa-bootstrap{
+    font-size: 50px;
+    color: rgb(22, 63, 138);
 }
 
 @media screen and (max-width: 600px) {
@@ -451,6 +464,10 @@ span {
 }
 .project .carousel .carousel-control-prev-icon, .project .carousel .carousel-control-next-icon{
     background-color: rgba(94, 94, 94, 0.668);
+}
+.carousel-caption h5 {
+    color: cornflowerblue;
+    font-size: 30px;
 }
 
 /* Contact Section */
@@ -543,5 +560,4 @@ span {
     text-decoration: none;
     color: #ffffff;
     border-bottom: 3px solid transparent;
-    transition: 0@import url('https://fo2ts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 }
